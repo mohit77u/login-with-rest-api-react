@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'bebas';
+  src: url("../font/bebas.ttf");
+}
+
+@font-face {
+  font-family: 'tisa';
+  src: url("../font/tisa.ttf");
+}
+
+button:focus, button {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn:focus, .btn {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input:focus, input, .form-control:focus, .form-control {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form-control:focus {
+  border: 1px solid #ced4da;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0094f7;
+  border-radius: 3px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button, textarea, textarea:focus, button:focus {
+  outline: none;
+}
+
+body {
+  font-family: 'tisa';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'bebas';
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.container {
+  max-width: 80%;
+}
+
+p {
+  opacity: 0.6;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  margin: 10px 0;
+}
+
+.home .col-sm-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.auth {
+  padding: 50px 0;
+}
+
+.auth input {
+  margin: 10px 0;
+  padding: 12px;
+}
+
+.auth button {
+  background: #0094f7;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+}
+/*# sourceMappingURL=style.css.map */
